@@ -8,6 +8,10 @@ import Aside from '../../components/Aside/';
 import Footer from '../../components/Footer/';
 
 import Dashboard from '../../views/Dashboard/';
+import Facebook from '../../views/Facebook/';
+import Instagram from '../../views/Instagram/';
+import Twitter from '../../views/Twitter/';
+import Google from '../../views/Google/';
 
 class Full extends Component {
   render() {
@@ -21,6 +25,10 @@ class Full extends Component {
             <Container fluid>
               <Switch>
                 <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
+                <Route path="/facebook" name="Facebook" component={Facebook}/>
+                <Route path="/instagram" name="Instagram" component={Instagram}/>
+                <Route path="/twitter" name="Twitter" component={Twitter}/>
+                <Route path="/google" name="Google" component={Google}/>
                 <Redirect from="/" to="/dashboard"/>
               </Switch>
             </Container>

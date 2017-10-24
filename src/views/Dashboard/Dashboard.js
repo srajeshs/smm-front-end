@@ -5,11 +5,11 @@ class Dashboard extends Component {
   render() {
     return (
       <div className="animated fadeIn">
-          <div class="container-fluid">
-              <div class="row">
-                  <div class="col-sm-6 col-md-3">
-                      <div class="social-box facebook">
-                          <i class="fa fa-facebook"></i>
+          <div className="container-fluid">
+              <div className="row">
+                  <div className="col-sm-6 col-md-3">
+                      <div className="social-box facebook">
+                          <i className="fa fa-facebook"></i>
                           <ul>
                               <li>
                                   <strong>89k</strong>
@@ -21,11 +21,11 @@ class Dashboard extends Component {
                               </li>
                           </ul>
                       </div>
-                      <button type="button" class="btn btn-primary btn-block">Connect</button>
+                      <button type="button" className="btn btn-primary btn-block">Connect</button>
                   </div>
-                  <div class="col-sm-6 col-md-3">
-                      <div class="social-box instagram">
-                          <i class="fa fa-instagram"></i>
+                  <div className="col-sm-6 col-md-3">
+                      <div className="social-box instagram">
+                          <i className="fa fa-instagram"></i>
                           <ul>
                               <li>
                                   <strong>500+</strong>
@@ -37,11 +37,11 @@ class Dashboard extends Component {
                               </li>
                           </ul>
                       </div>
-                      <button type="button" class="btn btn-primary btn-block">Connect</button>
+                      <button type="button" className="btn btn-primary btn-block">Connect</button>
                   </div>
-                  <div class="col-sm-6 col-md-3">
-                      <div class="social-box twitter">
-                          <i class="fa fa-twitter"></i>
+                  <div className="col-sm-6 col-md-3">
+                      <div className="social-box twitter">
+                          <i className="fa fa-twitter"></i>
                           <ul>
                               <li>
                                   <strong>973k</strong>
@@ -53,11 +53,11 @@ class Dashboard extends Component {
                               </li>
                           </ul>
                       </div>
-                      <button type="button" class="btn btn-primary btn-block">Connect</button>
+                      <button type="button" className="btn btn-primary btn-block">Connect</button>
                   </div>
-                  <div class="col-sm-6 col-md-3">
-                      <div class="social-box google-plus">
-                          <i class="fa fa-google-plus"></i>
+                  <div className="col-sm-6 col-md-3">
+                      <div className="social-box google-plus">
+                          <i className="fa fa-google-plus"></i>
                           <ul>
                               <li>
                                   <strong>894</strong>
@@ -69,7 +69,7 @@ class Dashboard extends Component {
                               </li>
                           </ul>
                       </div>
-                      <button type="button" class="btn btn-primary btn-block">Connect</button>
+                      <button type="button" className="btn btn-primary btn-block">Connect</button>
                   </div>
               </div>
           </div>

@@ -22,7 +22,7 @@ export default {
     },
     {
         name: 'Google Plus',
-        url: '/google_plus',
+        url: '/google',
         icon: 'icon-social-google',
     }
   ]
